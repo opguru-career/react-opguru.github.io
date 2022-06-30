@@ -1,0 +1,55 @@
+#hero {
+  /* background-image: url("../../../../public/images/home.png"); */
+
+  /* background-image: url("https://cutewallpaper.org/23/study-wallpaper-hd/806918507.jpg"); */
+  background-image: url("/images/home.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  color: #ed5d10;
+}
+
+#hero h2 {
+  color: #786c91;
+}
+
+#hero button {
+  background-color: rgba(106, 101, 206, 0.2);
+
+  color: #088178;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 40px;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-size: cover;
+  cursor: pointer;
+}
+#hero button:hover {
+  background-color: rgba(106, 101, 206, 0.5);
+  color: white;
+}
+
+@media (max-width: 477px) {
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  #hero {
+    padding: 20px;
+  }
+}
